@@ -1,0 +1,39 @@
+#scroll, #list {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 240px;
+}
+
+.item {
+    border: 0 !important;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+#scheduler {
+    margin-left: 270px;
+}
+
+.dx-draggable-source {
+    font-size: 15px;
+    opacity: 0.5;
+}
+.dx-scheduler-header-panel-cell.dx-scheduler-header-panel-current-time-cell::before ,
+.dx-scheduler-time-panel-cell.dx-scheduler-time-panel-current-time-cell::before{
+    background-color: white;
+}
+.dx-scheduler-date-table-cell.dx-scheduler-cell-sizes-horizontal.dx-scheduler-cell-sizes-vertical.dx-scheduler-first-group-cell{
+    color:white;
+}
+.dx-scheduler-time-panel-cell.dx-scheduler-time-panel-current-time-cell{
+    color:#333;
+}
+
+.dx-draggable-dragging > * {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+.dx-item-content.dx-scheduler-appointment-content{
+    background-color: #333;
+}
